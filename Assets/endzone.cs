@@ -11,6 +11,7 @@ public class endzone : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         if(ant=null)
         {
             ant = GameObject.FindWithTag("Ant");

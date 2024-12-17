@@ -11,6 +11,8 @@ public class AntMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>(); // קישור ל-Animator
+        debug.log("Hello");
+        debug.log("Hello2");
     }
 
     void Update()
